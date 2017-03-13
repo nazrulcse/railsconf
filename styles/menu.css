@@ -7,7 +7,7 @@
     padding: 0 1em;
     position: fixed;
     width: 100%;
-    z-index: 6;
+    z-index: 999;
 }
 
 .navbar, .dropdown-menu {
@@ -52,4 +52,38 @@
 .navbar-toggle .icon-bar {
     color: #fff;
     background: #fff;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    background: url('../images/ruby-on-rails.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer .footer-banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 45px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #dfdfdf;
+}
+
+footer .content-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.footer-container {
+    display: table-cell !important;
+    vertical-align: middle;
+    text-align: center;
 }
