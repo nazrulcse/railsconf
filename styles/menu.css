@@ -1,0 +1,55 @@
+.header {
+    background: white;
+    color: white;
+    display: block;
+    font-size: 1em;
+    max-width: 2000px;
+    padding: 0 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 6;
+}
+
+.navbar, .dropdown-menu {
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    -webkit-box-shadow: 0 1px 1px #f1f1f1;
+    -moz-box-shadow: 0 1px 1px #f1f1f1;
+    box-shadow: 0 1px 1px #f1f1f1;
+}
+
+.nav > li > a {
+    padding: 20px;
+    color: #CC0000;
+}
+
+.nav > li > a, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a, .dropdown-menu > li {
+    border-bottom: 3px solid transparent;
+}
+
+.nav > li > a:focus, .nav > li > a:hover, .nav .open > a, .nav .open > a:focus, .nav .open > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    border-bottom: 3px solid transparent;
+    background: none;
+}
+
+.navbar a, .dropdown-menu > li > a, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .navbar-toggle {
+    color: #fff;
+}
+
+.dropdown-menu {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.nav li {
+    border-bottom: solid 3px transparent;
+}
+
+.nav li:hover, .nav li.active {
+    border-bottom: #CC0000 3px solid;
+}
+
+.navbar-toggle .icon-bar {
+    color: #fff;
+    background: #fff;
+}

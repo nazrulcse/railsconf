@@ -1,0 +1,38 @@
+.font-weight--light {
+    font-weight: 300;
+}
+
+.hr--ruby {
+    background-color: inherit;
+    border-bottom: 1px solid #d8094e;
+    max-width: 80%;
+    position: relative;
+}
+
+.hr--ruby:after {
+    background-image: url('../images/rails.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 27px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    background-color: #ffffff;
+}
+
+.space-top--xxlarge {
+    margin-top: 4.5em !important;
+}
+
+.section-container {
+    max-width: 75%;
+    margin: auto;
+}
+
+.topfix {
+    margin-top: 67px;
+}
