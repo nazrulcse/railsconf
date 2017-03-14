@@ -11,6 +11,27 @@
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCM3qFzoj-zZe_JRHLO1A3Ag7XU5_2EKmU"></script>
+	
+	   <script type="text/javascript">
+	       window.onload = function () {
+	           var mapOptions = {
+	               //give latitude and long
+	               center: new google.maps.LatLng(23.7806759, 90.3492453),
+	               zoom: 15
+	           };
+	           var infoWindow = new google.maps.InfoWindow();
+	           var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+	           //give latitude and long
+	           var myLatlng = new google.maps.LatLng(23.744521,90.370655);
+	           var marker = new google.maps.Marker({
+	               position: myLatlng,
+	               map: map,
+	               title: "United International University"
+	           });
+	       }
+	   </script>
+		   
 </head>
 <body>
 <header class="header">
@@ -44,21 +65,52 @@
         </div>
     </div>
 </header>
-<div class="banner-wrapper">
-    <img src="images/banner.jpg" alt="banner"/>
-</div>
-<div class="container-fluid main-container">
+
+<div class="container-fluid main-container topfix">
     <div class="section section-container background--white">
         <div class="section__inner">
             <div class="content content--intro text-align--center space-inner-bottom--none">
-                <h2 class="text-center" style="font-weight: normal; margin-top: 50px">
-                    RailsConf Dhaka 2017 is coming to BASIS Convention Center
-                    this Spring, so come join us to talk all things Rails with other developers and enthusiasts.
+                <h2 class="font-weight--light text-center">
+                    Venue of RailsConf 2017
                 </h2>
                 <hr class="hr hr--ruby space-top--xxlarge">
             </div>
         </div>
     </div>
+	
+    <div class="container">
+         <h2 class="text-center" style="font-weight: normal; margin-top: 50px">
+			  It’s the largest official gathering of the year, attended by top Rails talent, companies and project 
+			  representatives from around the world. If you’re looking to recruit, promote your product or just soak 
+			  in the content, you’ll want to be at RailsConf 2017.
+         </h2>         
+    </div>
+
+    <div class="section section-container background--white">
+         <hr class="section hr hr--ruby space-top--xxlarge">
+    </div>
+	
+    <div class="container">
+         <div class='row'>
+		    <div class='col-md-4'>
+                <h1 class="text-right" style="margin: 0 10px; font-size: 50px; color: #d8094e;">
+                  UIU Auditorium
+                </h1> 
+				<address class="text-right" style="margin: 20px 10px; font-size: 20px;">
+				  <strong>United International University</strong><br>
+				  Rd No. 16, Dhanmondi<br>
+				  Dhaka-1209, Bangladesh<br>
+				  <abbr title="Phone">P:</abbr> +880 2-9125912
+				</address>
+			</div>
+			
+			<div class='col-md-8'>				
+				<div id="googleMap" style="width:100%;height:400px;"></div>
+			</div>
+		 </div>
+    </div>
+	
+  
 </div>
 </body>
 </html>
