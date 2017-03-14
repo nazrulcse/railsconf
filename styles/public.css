@@ -36,3 +36,9 @@
 .topfix {
     margin-top: 67px;
 }
+
+.primary-header {
+    font-size: 36px;
+    color: #8F0016;
+    font-weight: bold;
+}

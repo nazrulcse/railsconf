@@ -80,6 +80,7 @@ footer .footer-banner {
 footer .content-wrapper {
     display: table;
     width: 100%;
+    height: 100%;
 }
 
 .footer-container {
@@ -87,3 +88,16 @@ footer .content-wrapper {
     vertical-align: middle;
     text-align: center;
 }
+
+.footer-container .footer-company-motto {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-container .footer-links a {
+    color: #dfdfdf;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
