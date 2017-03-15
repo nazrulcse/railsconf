@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="styles/menu.css"/>
     <link rel="stylesheet" href="styles/main_old.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
     <link rel="stylesheet" href="styles/public.css"/>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -34,39 +35,55 @@
 
 </head>
 <body>
-<header class="header">
-    <div class="navbar-wrapper">
-        <div class="container-fluid">
-            <nav class="navbar navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="">
-                            <img src="images/rails.png" alt="logo"/>
-                        </a>
-                    </div>
 
-                    <div id="navbar" class="navbar-collapse collapse menu-items pull-right">
-                        <ul class="nav navbar-nav">
-                            <li><a href="program.html">PROGRAM</a></li>
-                            <li><a href="location.html">LOCATION</a></li>
-                            <li><a href="sponsors.html">SPONSORS</a></li>
-                            <li><a href="about.html">ABOUT</a></li>
-                        </ul>
-                    </div>
+<header id="header" role="banner">
+    <div class="main-nav fixed-menu animated slideInDown">
+        <div class="container">
+            <div class="header-top">
+                <div class="pull-right social-icons">
+                    <a href="http://www.facebook.com"><i class="fa fa-twitter"></i></a>
+                    <a href="http://www.twitter.com"><i class="fa fa-facebook"></i></a>
+                    <a href="http://wwww.google.com"><i class="fa fa-google-plus"></i></a>
+                    <a href="http://www.youtube.com"><i class="fa fa-youtube"></i></a>
                 </div>
-            </nav>
+            </div>
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img class="img-responsive" src="./images/logo_one.png" alt="logo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="scroll active"><a href="http://shapebootstrap.net/demo/html/evento/#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="no-scroll" href="program.html">Program</a>
+                        </li>
+                        <li class="scroll"><a href="http://shapebootstrap.net/demo/html/evento/#event">Speakers</a></li>
+                        <li class="scroll"><a href="http://shapebootstrap.net/demo/html/evento/#about">About</a></li>
+                        <li class="no-scroll"><a href="http://shapebootstrap.net/demo/html/evento/#twitter">Sponsors</a>
+                        </li>
+                        <li>
+                            <a class="no-scroll" href="http://shapebootstrap.net/demo/html/evento/#" target="_blank">
+                                Ragistration
+                            </a>
+                        </li>
+                        <li class="scroll"><a href="http://shapebootstrap.net/demo/html/evento/#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </header>
-
-<div class="container-fluid main-container topfix">
+<div class="container-fluid main-container topfix" style="color: #666">
     <div class="section section-container background--white">
         <div class="section__inner">
             <div class="content content--intro text-align--center space-inner-bottom--none">
@@ -86,9 +103,9 @@
         </h2>
     </div>
 
-    <div class="section section-container background--white">
-        <hr class="section hr hr--ruby space-top--xxlarge">
-    </div>
+    <!--<div class="section section-container background&#45;&#45;white">-->
+        <!--<hr class="section hr hr&#45;&#45;ruby space-top&#45;&#45;xxlarge">-->
+    <!--</div>-->
 
     <div class="container">
         <div class='row'>
@@ -110,5 +127,16 @@
         </div>
     </div>
 </div>
+
+
+<footer id="program-footer">
+    <div class="container">
+        <div class="text-center">
+            <p> Copyright © 2017 <a target="_blank" href="#"> RailsConf </a>. All Rights Reserved. <br>
+                Designed and Developed by <a target="_blank" href="https://github.com/nazrulcse"> Nazrul </a> and
+                Rokibul </p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
