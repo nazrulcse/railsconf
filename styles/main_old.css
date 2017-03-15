@@ -1,5 +1,6 @@
 body {
     background: #ffffff;
+    color: #666;
 }
 
 .banner-wrapper {
@@ -166,8 +167,30 @@ body {
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
+    color: #666;
 }
 
 .timeline-body > p + p {
     margin-top: 5px;
 }
+/* for footer */
+#program-footer {
+    background-color: #212121;
+    background-image: url("../images/footer-bg.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 35px 0;
+    height: auto;
+}
+
+#program-footer a {
+    color: #f7ab24
+}
+
+#program-footer a:hover {
+    color: #1B7B98
+}
+
