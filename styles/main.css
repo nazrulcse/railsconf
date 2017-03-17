@@ -159,20 +159,21 @@ h2 {
 }
 
 #main-slider img {
-    width: 100%
+    height: 550px;
+    width: 100%;
 }
 
 #main-slider .carousel-caption {
-    background: none repeat scroll 0 0 #8F0016;
+    background: #fff none repeat scroll 0 0;
     bottom: 14%;
+    color: #8f0016;
     float: left;
     left: 0;
     opacity: 0.8;
     padding: 10px 60px 35px;
     right: inherit;
-    text-transform: uppercase;
-    color: #fff;
     text-align: left;
+    text-transform: uppercase;
 }
 
 #main-slider .carousel-caption h2 {
