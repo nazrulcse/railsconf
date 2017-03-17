@@ -67,7 +67,7 @@ h2 {
 
 .social-icons a {
     font-size: 18px;
-    color: #fff;
+    color: #8F0016;
     padding-left: 20px;
 }
 
@@ -88,7 +88,7 @@ h2 {
 }
 
 .navbar-brand {
-    background-color: #8F0016;
+    background-color: #dfdfdf;
     height: 90px;
     margin-bottom: 20px;
     position: relative;
@@ -101,7 +101,7 @@ h2 {
 }
 
 .navbar-right {
-    background-color: #8F0016;
+    background-color: #fdfdfd;
     padding: 0 95px 0 0;
     opacity: .9
 }
@@ -109,19 +109,19 @@ h2 {
 .navbar-right li a {
     padding: 35px 21px;
     font-size: 15px;
-    color: #fff;
+    color: #8F0016;
     text-transform: uppercase;
     font-family: 'arial';
     font-weight: 700;
 }
 
 .navbar-right li a:hover, .navbar-right li a:focus, .navbar-right .active a {
-    background-color: #fff;
-    color: #16728f
+    background-color: #cccccc;
+    color: #8F0016
 }
 
 .fixed-menu {
-    background-color: #8F0016;
+    background-color: #fdfdfd;
     position: fixed;
     top: 0;
 }
