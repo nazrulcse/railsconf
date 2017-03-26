@@ -155,6 +155,22 @@ h2 {
     display: none;
 }
 
+.event-details {
+    color: #fcfcfc;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    width: 280px;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    transform: translateX(-50%);
+}
+
+.event-details h2, .event-details h4, .event-details p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 18px;
+}
+
 #home {
     position: relative;
     overflow: hidden;
@@ -445,7 +461,7 @@ h2 {
     font-family: 'Dosis', sans-serif;
 }
 
-#about .btn-primary {
+.btn-primary {
     background-color: #137c61;
     color: #fff;
     text-transform: capitalize;
@@ -453,7 +469,7 @@ h2 {
     margin-top: 28px;
 }
 
-#about .btn-primary:hover {
+.btn-primary:hover {
     background-color: #126d55
 }
 
@@ -518,12 +534,12 @@ h2 {
 }
 
 /*#sponsor {*/
-    /*background-color: #1881a2;*/
-    /*background-image: url("../images/sponsor-bg.jpg");*/
-    /*background-position: 50% 0;*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*position: relative;*/
+/*background-color: #1881a2;*/
+/*background-image: url("../images/sponsor-bg.jpg");*/
+/*background-position: 50% 0;*/
+/*background-size: cover;*/
+/*background-repeat: no-repeat;*/
+/*position: relative;*/
 /*}*/
 
 .light {
@@ -533,43 +549,43 @@ h2 {
 }
 
 /*#sponsor .col-sm-10 {*/
-    /*z-index: 10;*/
+/*z-index: 10;*/
 /*}*/
 
 /*#sponsor h2 {*/
-    /*margin-top: 90px;*/
-    /*margin-bottom: 40px;*/
+/*margin-top: 90px;*/
+/*margin-bottom: 40px;*/
 /*}*/
 
 /*#sponsor .item ul {*/
-    /*font-size: 0;*/
-    /*padding: 0;*/
+/*font-size: 0;*/
+/*padding: 0;*/
 /*}*/
 
 /*#sponsor .item ul li {*/
-    /*display: inline-block;*/
-    /*list-style: none;*/
-    /*width: 33.33%;*/
-    /*margin-bottom: 75px;*/
+/*display: inline-block;*/
+/*list-style: none;*/
+/*width: 33.33%;*/
+/*margin-bottom: 75px;*/
 /*}*/
 
 /*#sponsor .item ul li:last-child {*/
-    /*margin-right: 0*/
+/*margin-right: 0*/
 /*}*/
 
 /*.sponsor-control-left, .sponsor-control-right {*/
-    /*color: #FFFFFF;*/
-    /*font-size: 24px;*/
-    /*position: absolute;*/
-    /*top: 20%;*/
+/*color: #FFFFFF;*/
+/*font-size: 24px;*/
+/*position: absolute;*/
+/*top: 20%;*/
 /*}*/
 
 /*.sponsor-control-left {*/
-    /*right: 12%*/
+/*right: 12%*/
 /*}*/
 
 /*.sponsor-control-right {*/
-    /*right: 10%*/
+/*right: 10%*/
 /*}*/
 
 #map {
@@ -700,7 +716,7 @@ h2 {
     animation-fill-mode: both;
 }
 
-.contact{
+.contact {
     color: #333333;
     font-size: 16px;
     font-family: arial;
