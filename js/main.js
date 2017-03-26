@@ -2,7 +2,7 @@ jQuery(function ($) {
     'use strict',
 
 
-    $("#countdown").countdown({date: "10 july 2017 12:00:00", format: "on"}, function () {});
+    $("#countdown").countdown({date: "22 april 2017 10:00:00", format: "on"}, function () {});
 
     function menuToggle() {
         var windowWidth = $(window).width();
