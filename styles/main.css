@@ -41,11 +41,11 @@ h2 {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #8F000F;
 }
 
 .navbar-toggle, .navbar-toggle:focus {
-    border: 1px solid #fff;
+    border: 1px solid #8F000F;
     outline: none;
 }
 

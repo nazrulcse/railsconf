@@ -36,24 +36,6 @@
     <!--<link href="./styles/menu.css" rel="stylesheet">-->
     <link href="./styles/animate.css" rel="stylesheet">
     <link href="./styles/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <script type="text/javascript" charset="UTF-8"
-            src="./js/common.js"></script>
-    <script type="text/javascript" charset="UTF-8"
-            src="./js/map.js"></script>
-    <script type="text/javascript" charset="UTF-8"
-            src="./js/util.js"></script>
-    <script type="text/javascript" charset="UTF-8"
-            src="./js/marker.js"></script>
-    <script type="text/javascript" charset="UTF-8"
-            src="./js/onion.js"></script>
-    <script type="text/javascript" charset="UTF-8"
-            src="./js/stats.js"></script>
-    <script type="text/javascript" charset="UTF-8"
-            src="./js/controls.js"></script>
     <style type="text/css">
         @-webkit-keyframes _gm9024 {
             0% {
@@ -84,7 +66,6 @@
                     <a href="http://www.facebook.com"><i class="fa fa-twitter"></i></a>
                     <a href="http://www.twitter.com"><i class="fa fa-facebook"></i></a>
                     <a href="http://wwww.google.com"><i class="fa fa-google-plus"></i></a>
-                    <a href="http://www.youtube.com"><i class="fa fa-youtube"></i></a>
                 </div>
             </div>
             <div class="row">
@@ -101,12 +82,12 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="scroll active"><a href="http://rubybd.org/index.html#home">Home</a></li>
-                        <li class="scroll"><a href="http://rubybd.org/index.html#code-of-conduct">Code Of Contact</a>
-                        <li class="scroll"><a href="http://rubybd.org/index.html#call-for-speaker">Call for Speakers</a>
-                        <li class="scroll"><a href="http://rubybd.org/index.html#registration">Registration</a></li>
-                        <li class="scroll"><a href="http://rubybd.org/index.html#sponsor">Sponsors</a></li>
-                        <li class="scroll"><a href="http://rubybd.org/index.html#contact">Contact</a>
+                        <li class="no-xscroll active"><a href="http://rubybd.org/index.html">Home</a></li>
+                        <li class="no-xscroll"><a href="http://rubybd.org#code-of-conduct">Code Of Contact</a>
+                        <li class="no-xscroll"><a href="http://rubybd.org#call-for-speaker">Call for Speakers</a>
+                        <li class="no-xscroll"><a href="http://rubybd.org#registration">Registration</a></li>
+                        <li class="no-xscroll"><a href="http://rubybd.org#sponsor">Sponsors</a></li>
+                        <li class="no-xscroll"><a href="http://rubybd.org#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -120,9 +101,9 @@
         <div class="item next left">
             <img class="img-responsive" src="./images/slide/banner.png" alt="slider">
             <div class="event-details">
-                <p> <i class="fa fa-calendar-check-o"></i> 22 April, 2017 </p>
+                <p><i class="fa fa-calendar-check-o"></i> 22 April, 2017 </p>
                 <p> RUBY CONF BANGLADESH </p>
-                <p> <i class="fa fa-map-marker"></i> DHAKA, BANGLADESH </p>
+                <p><i class="fa fa-map-marker"></i> DHAKA, BANGLADESH </p>
                 <a href="index.html#registration" class="btn-primary btn" style="margin: 0;">
                     Register Now <i class="fa fa-angle-right"></i>
                 </a>
@@ -130,8 +111,6 @@
         </div>
     </div>
 </section>
-
-
 
 
 <section id="code-of-conduct" style="background: #EEEEEE; padding: 80px 15px;">
@@ -196,7 +175,6 @@
 </section>
 
 
-
 <footer id="footer">
     <div class="container">
         <div class="text-center">
@@ -206,39 +184,5 @@
         </div>
     </div>
 </footer>
-
-<script type="text/javascript">
-    window.onload = function () {
-        var mapOptions = {
-            //give latitude and long
-            center: new google.maps.LatLng(23.7806759, 90.3492453),
-            zoom: 15,
-            scrollwheel: false
-        };
-        var infoWindow = new google.maps.InfoWindow();
-        var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
-        //give latitude and long
-        var myLatlng = new google.maps.LatLng(23.744521, 90.370655);
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map,
-            title: "United International University",
-
-        });
-    }
-</script>
-
-<script type="text/javascript" src="./js/jquery.js"></script>
-<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-<script type="text/javascript" src="./js/js"></script>
-<script type="text/javascript" src="./js/gmaps.js"></script>
-<script type="text/javascript" src="./js/smoothscroll.js"></script>
-<script type="text/javascript" src="./js/jquery.parallax.js"></script>
-<script type="text/javascript" src="./js/coundown-timer.js"></script>
-<script type="text/javascript" src="./js/jquery.scrollTo.js"></script>
-<script type="text/javascript" src="./js/jquery.nav.js"></script>
-<script type="text/javascript" src="./js/main.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCM3qFzoj-zZe_JRHLO1A3Ag7XU5_2EKmU"></script>
-
 </body>
 </html>
